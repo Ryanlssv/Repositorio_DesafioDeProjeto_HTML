@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+
+header{
+    align-items: center;
+    background-color: #00796b;
+}
+
+.navegacao{
+width: 30%;
+text-align: center;
+padding: 1rem;
+margin-left: 35%;
+
+}
+
+.navegacao a {
+    padding-left: 12px;
+    color: #f9f9f9;
+    font-size: 20px;
+    font-family:"League Spartan";
+    text-decoration: none;
+}
+
+a:hover {
+    color: #03b9a4;
+    text-decoration:underline;
+    transition: 0.5s;
+}
+
+.destaque{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 70%;
+    font-size: 14px;
+    color: #00796b;
+    border-radius: 7px;
+
+}
+
+.destaque span{
+    font-style: italic;
+}
+
+.destaque h1{
+    padding: 10px 17px 0px;
+}
+
+.destaque p{
+    color: #333;
+    text-align: justify;
+    padding: 6px 17px 6px;
+    font-size: 17px;
+    width: 98%;
+}
+
+.Sobre span{
+    color: #00796b;
+}
+
+.Sobre h1{
+    padding: 10px 17px 0px;
+}
+
+.Sobre p{
+    padding: 6px 17px 20px;
+}
+
+.rodape-Home {
+    width: 100%;
+    text-align: center;
+    background-color:#00796b;
+    font-size: 20px;
+    margin-top: 12.9%;
+    padding: 3px;
+    color: rgb(255, 255, 255);
+    font-family: "League Spartan";
+}
+
+.tabela{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 70%;
+    border-radius: 7px;
+    padding: 0px 0px 100px;
+
+}
+
+.tabela table{
+    margin: 3% 20% 0%;
+    width: 60%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tabela th{
+    color: #00796b;
+}
+
+
+.tabela h1{
+    font-size: 25px;
+    color: #00796b;
+    text-align: center;
+    padding: 10px 17px 20px;
+}
+
+
+.rodape-horarios {
+    width: 100%;
+    text-align: center;
+    background-color:#00796b;
+    font-size: 20px;
+    margin-top: 16%;
+    padding: 3px;
+    color: rgb(255, 255, 255);
+    font-family: "League Spartan";
+}
+
+.CanaisAtendimento{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 4%;
+    margin-left: 15%;
+    width: 70%;
+    border-radius: 7px;
+    padding: 0px 0px 100px;
+}
+
+.CanaisAtendimento h1{
+    font-size: 25px;
+    text-align: center;
+    color: #00796b;
+    padding: 15px 17px 5px;
+}
+
+.CanaisAtendimento ul {
+    margin-left: 5%;
+    font-size: 18px;
+}
+
+.CanaisAtendimento li{
+    padding-top: 10px;
+}
+
+.CanaisAtendimento span{
+    color: #00796b;
+}
+
+
+.rodape-contato {
+    width: 100%;
+    text-align: center;
+    background-color:#00796b;
+    font-size: 20px;
+    margin-top: 6%;
+    padding: 3px;
+    color: rgb(255, 255, 255);
+    font-family: "League Spartan";
+}
